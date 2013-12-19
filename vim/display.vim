@@ -25,8 +25,10 @@ if has("gui_running")
     set hlsearch	" highlight search matches
     colorscheme mustang	" set colorscheme
 else " terminal configuration
+    set cursorline	" currrent line is highlighted
     set t_Co=16		" Use 16 colors
-    colorscheme mustang
+    set hlsearch	" highlight search matches
+    colorscheme adrien
 endif
 " Show the cursor position
 set ruler
@@ -37,6 +39,8 @@ set fillchars=""
 " Set tab labels
 set guitablabel=[%n:%t]
 
+let &colorcolumn=join(range(81,999),",")
+let &colorcolumn="80,".join(range(120,999),",")
 
 "}}}
 
