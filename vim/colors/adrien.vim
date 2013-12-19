@@ -38,7 +38,7 @@ hi SpecialKey	guifg=#808080 guibg=#343434 gui=none ctermfg=244 ctermbg=236
 hi Comment 		guifg=#808080 gui=italic ctermfg=244
 hi Boolean      guifg=#b1d631 gui=none ctermfg=148
 hi String 		guifg=#b1d631 gui=none ctermfg=148
-hi Identifier 	guifg=#b1d631 gui=none ctermfg=148
+hi Identifier 	guifg=#b1d631 gui=none ctermfg=149 cterm=NONE
 hi Function         guifg=#2f4f4f     guibg=NONE        gui=NONE      ctermfg=blue       ctermbg=NONE        cterm=NONE
 hi Type 		guifg=#EEE8AA gui=none ctermfg=lightmagenta
 hi Statement 	guifg=#7e8aa2 gui=none ctermfg=103

@@ -112,6 +112,14 @@ function! s:ReindentFile()
 endfunction
 
 
+" See tabs, trailing whitespaces
+set list listchars=tab:»-,trail:·,extends:»,precedes:«
+
+" IndentLine
+let g:indentLine_color_term = 239
+
+
+
 "}}}"
 " Commands: {{{
 "------------------------------------------------------------------------------
