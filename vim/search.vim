@@ -10,8 +10,7 @@
 set ignorecase
 " Ignore case when the pattern contains lowercase letters only
 set smartcase
-" Search wrap around the end of the file
-set nowrapscan
+set wrapscan
 " Show the current first match when search"
 set incsearch
 
