@@ -39,8 +39,9 @@ set fillchars=""
 " Set tab labels
 set guitablabel=[%n:%t]
 
-let &colorcolumn=join(range(81,999),",")
-let &colorcolumn="80,".join(range(120,999),",")
+" Restore buffer shell on exit
+let &t_ti = "\<Esc>[?47h"
+let &t_te = "\<Esc>[?47l"
 
 "}}}
 

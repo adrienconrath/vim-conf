@@ -47,5 +47,9 @@ command! -nargs=0	ToogleTextWidth		call s:ToogleTextWidth()
 "------------------------------------------------------------------------------
 noremap <silent>	<F9>			:ToogleTextWidth<CR> 
 
+" Change bg color for columns that are over defaultTextWidth
+let &colorcolumn=join(range(81,999),",")
+let &colorcolumn="80,".join(range(120,999),",")
+
 
 "}}}
