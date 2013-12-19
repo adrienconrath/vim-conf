@@ -32,6 +32,3 @@ set nowrap
 set linebreak
 " Timeout for macros
 set timeoutlen=500
-
-
-
