@@ -52,7 +52,7 @@ nmap <silent> <unique> <SPACE>e :FufMruFile<CR>
 nmap <silent> <unique> <SPACE>c :FufMruCmd<CR>
 
 " NERDTree
-map l :NERDTreeToggle `pwd`<RETURN>
+map j :NERDTreeToggle `pwd`<RETURN>
 
 " Taglist
 map k :TlistToggle <RETURN>
