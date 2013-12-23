@@ -7,7 +7,7 @@
 " Options:{{{
 "------------------------------------------------------------------------------
 " Do NOT insert spaces instead of tabs
-set noexpandtab
+set expandtab
 " Number of spaces in the file a <Tab> counts for.
 " (/!\ This value should not be changed!)
 set tabstop=8
@@ -41,7 +41,7 @@ function! s:IndentStyle()
 	echo "	[3] kernel-8"
 	let g:indent_style=input ("Specify indenting style : ")
 	if g:indent_style < 3
-		set noexpandtab
+		set expandtab
 		set tabstop=8
 		set smarttab
 		set comments=sl:/*,mb:**,ex:*/
@@ -67,7 +67,7 @@ function! s:IndentStyle()
 		endif
 	else
 		if g:indent_style == 3
-			set noexpandtab
+			set expandtab
 			set softtabstop=8
 			set tabstop=8
 			set shiftwidth=8
