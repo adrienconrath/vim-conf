@@ -57,6 +57,10 @@ map j :NERDTreeToggle `pwd`<RETURN>
 " Taglist
 map k :TlistToggle <RETURN>
 
+" md-vim
+filetype plugin on  " if you don't already have it
+au BufNewFile,BufRead *.md set ft=md
+
 
 "}}}
 
